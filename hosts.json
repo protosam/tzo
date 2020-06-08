@@ -1,0 +1,4 @@
+{ 
+    "default": "./www/default/",
+    "localhost:8080": "./www/localhost_8080/"
+}

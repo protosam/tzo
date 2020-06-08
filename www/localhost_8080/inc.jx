@@ -1,0 +1,5 @@
+req = HTTP("GET", "http://google.com").Request()
+res = req.Wait() // 5000ms == 5s
+
+print("res.Status ", res.Status, "<br>\n")
+print(res.Body)

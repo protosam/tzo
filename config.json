@@ -1,0 +1,33 @@
+{
+    "vm-timeout-ms": 15000,
+    "max-wait-ms": 5000,
+    "hosts-from-file": "./hosts.json",
+    "hosts": { 
+        "default": "./www/default/",
+        "localhost:8080": "./www/localhost_8080/"
+    },
+    "bind": ":8080",
+    "serve-files": true,
+    "script-extensions": [ ".tzo", ".jx" ],
+    "X-Abuse-Info": "TZO-JS; JavaScripted Server Pages; email: <webmaster@company.tld>",
+    "api-password": {"digest":"13e7a8ace16c6a5e470cd586887581e2a14168e7","salt":"92ad560ac27d8a6e28e3a2b72f9974ab1e7f273e6690ccf3a8c4109702330a62"},
+    "net-blacklist": [
+        "0.0.0.0/8",
+        "10.0.0.0/8",
+        "100.64.0.0/10",
+        "127.0.0.0/8",
+        "169.254.0.0/16",
+        "172.16.0.0/12",
+        "192.0.0.0/24",
+        "192.0.2.0/24",
+        "192.88.99.0/24",
+        "192.168.0.0/16",
+        "198.18.0.0/15",
+        "198.51.100.0/24",
+        "203.0.113.0/24",
+        "224.0.0.0/4",
+        "240.0.0.0/4",
+        "2000::/3"        
+    ],
+    "net-allow-self": false
+}

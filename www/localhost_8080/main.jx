@@ -1,0 +1,16 @@
+#!/bin/tzo
+// Shebang will be supported in CLI later.
+header("X-INFO", "Some additional info?")
+print("Found localhost:8080 host!<br>")
+x = "Running main.js<br>\n"
+print(x)
+print("Some input testing. (File Uploads with multi-part form data has not been figured out yet)<br>\n")
+print(_REMOTE_ADDR + "<br>\n")
+print(_REQUEST_URI + "<br>\n")
+print('<form method="post"><input type="text" name="foo"></form>')
+print(_REQUEST, "<br>\n")
+print(_REQUEST.Get("a"), "<br>\n")
+print(_REQUEST.Get("foo"), "<br>\n")
+
+print("<hr>")
+require("inc.jx")

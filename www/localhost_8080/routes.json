@@ -1,0 +1,5 @@
+{
+    "/": "/main.jx",
+    "/args/%/%": "/args.jx",
+    "/deny": "/deny.jx"
+}

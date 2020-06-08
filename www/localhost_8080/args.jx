@@ -1,0 +1,2 @@
+print(_ARGS[0] + "<br>")
+print(_ARGS[1] + "<br>")
